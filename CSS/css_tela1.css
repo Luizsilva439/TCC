@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    overflow: hidden;
+}
+
+.conteudo{ 
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo_marca{
+    background-color: #D52B1E;
+    border-radius: 8.76%;
+    width: 82px;
+    height: 82px;
+}
+
+.conteudo__textoPrincipal{
+    margin: 41px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.conteudo__botao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo__botao__hamburger{
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #808080;
+    border-radius: 16px;
+    margin: 24px;
+}
+
+.conteudo__botao__hamburger__link{
+    margin: 0px 0 12px 0;
+    background-color: #F4F4F5;
+    width: 450px;
+    height: 34px;
+    text-align: center;
+    border-radius: 9999px;
+    color: black;
+    align-content: center;
+}
+
