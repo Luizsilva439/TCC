@@ -5,32 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3 Donals's</title>
     <link rel="stylesheet" href="/TCC/styles/style.css">
+    <link rel="stylesheet" href="../styles/output.css">
 </head>
-<body>
-    <main class="conteudo">
-
-        <img class="logo_marca" src="./img_project/logo_3donalds.png" alt="logo 3donalds">
-        <h3 class="conteudo__3donalds">3 Donald’s</h3>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <main class="flex flex-col items-center justify-center text-center">
+        
+        <!-- Logo -->
+        <img class="w-24 h-24 bg-red-600 rounded-[8.76%]" src="../assets/logo_3donalds.png" alt="logo 3donalds">
+        
+        <!-- Título -->
+        <h3 class="mt-1 text-gray-800 font-poppins font-extrabold text-lg">3 Donald’s</h3>
       
-       <section class="conteudo__textoPrincipal">
-            <H1>Seja bem-vindo!</H1>
-            <p style="color: #7E8392;">Escolha como prefere aproveitar sua refeição.<br>
-             Estamos aqui para oferecer pr aticidade e<br> sabor em cada detalhe!
+        <!-- Texto Principal -->
+        <section class="m-10 w-96 flex flex-col items-center text-gray-800 font-poppins font-bold gap-5">
+            <h1 class="text-2xl font-bold">Seja bem-vindo!</h1>
+            <p class="text-gray-500">
+                Escolha como prefere aproveitar sua refeição.<br>
+                Estamos aqui para oferecer praticidade e<br>
+                sabor em cada detalhe!
             </p>
         </section>
 
-       <section class="conteudo__botao">
-            <div class="conteudo__botao__hamburger">
-                <img src="../img_project/logo_hamburger.png" alt="logo hamburger">
-                <a class="conteudo__botao__hamburger__link" href="">Para comer aqui</a>
+        <!-- Botões -->
+        <section class="flex gap-6">
+            <!-- Opção 1 -->
+            <div class="w-128 flex flex-col items-center border border-gray-200 rounded-2xl p-6">
+                <img src="../assets/logo_hamburger.png" alt="logo hamburger">
+                <a class="mt-3 bg-gray-200 w-[450px] h-8 text-center rounded-full text-gray-800 font-poppins font-bold flex items-center justify-center" href="#">
+                    Para comer aqui
+                </a>
             </div>
-            <div class="conteudo__botao__hamburger">
-                <img src="../img_project/logo_sacoDePapel.png" alt="logo_sacoDePapel">
-                <a class="conteudo__botao__hamburger__link" href="">Para levar</a>
+            
+            <!-- Opção 2 -->
+            <div class="w-128 flex flex-col items-center border border-gray-200 rounded-2xl p-6">
+                <img src="../assets/logo_sacoDePapel.png" alt="logo saco de papel">
+                <a class="mt-3 bg-gray-200 w-[450px] h-8 text-center rounded-full text-gray-800 font-poppins font-bold flex items-center justify-center" href="#">
+                    Para levar
+                </a>
             </div>
-       </section>
-        
+        </section>
 
     </main>
 </body>
+
 </html>
